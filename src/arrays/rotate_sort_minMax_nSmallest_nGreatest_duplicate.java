@@ -3,7 +3,7 @@ package arrays;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class Object {
+public class rotate_sort_minMax_nSmallest_nGreatest_duplicate {
 
     public static void leftRotate(int a[])
     {
