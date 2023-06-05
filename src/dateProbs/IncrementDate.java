@@ -26,5 +26,8 @@ public class IncrementDate {
 
         String prt1 = modifiedDate.substring(modifiedDate.indexOf(" "),modifiedDate.lastIndexOf(","));
         System.out.println(prt1);
+
+        String prt2 = modifiedDate.substring(0,modifiedDate.lastIndexOf(","));
+        System.out.println(prt2);
     }
 }

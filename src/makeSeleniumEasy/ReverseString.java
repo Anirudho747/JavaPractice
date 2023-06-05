@@ -36,6 +36,7 @@ public class ReverseString {
         acceptString();
         changeToArray();
         revWord();
+
     }
 
 }
