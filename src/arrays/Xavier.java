@@ -17,7 +17,8 @@ public class Xavier {
         //duplicate();
         //sortArray();
         //revSortArray();
-        revString();
+        //revString();
+        camelCase();
     }
 
     public static int getNumber()
@@ -194,13 +195,34 @@ public class Xavier {
             System.out.print(strArray[i]+"    ");
         }
 
-
         for(int i=strArray.length-1;i>=0;i--)
         {
             System.out.print(strArray[i]+"    ");
         }
     }
 
+    public static void camelCase()
+    {
+        String sntnc = "make this as camel case";
 
+        String[] arraySntnc = sntnc.split(" ");
+
+        for(int i=0;i<arraySntnc.length;i++)
+        {
+            String wrd = arraySntnc[i];
+            for(int j=0;j<wrd.length();j++)
+            {
+                if(j==0)
+                {
+                    System.out.print(Character.toUpperCase(wrd.charAt(j)));
+                }
+                else
+                {
+                    System.out.print((wrd.charAt(j)));
+                }
+            }
+            System.out.print("   ");
+        }
+    }
 
 }
